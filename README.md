@@ -1,2 +1,2 @@
-# ble
+# @openiqos/ble
 TypeScript Library to communicate with iQOS device.
