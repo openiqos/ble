@@ -15,9 +15,6 @@
   "files": [
     "lib/**/*"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "private": false,
   "devDependencies": {
     "@types/web-bluetooth": "^0.0.5",
