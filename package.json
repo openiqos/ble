@@ -1,0 +1,27 @@
+{
+  "name": "@openiqos/ble",
+  "version": "0.0.0",
+  "description": "TypeScript Library to communicate with iQOS device.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "git@github.com:openiqos/ble.git",
+  "author": "Misha Marinenko <0x77dev@protonmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "echo \" //TODO: No Tests here... \"",
+    "build": "rimraf lib/ && tsc",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "private": false,
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.7.5"
+  }
+}
