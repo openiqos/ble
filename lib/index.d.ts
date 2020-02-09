@@ -1,3 +1,3 @@
 export declare class iQOS {
-    constructor();
+    private device;
 }

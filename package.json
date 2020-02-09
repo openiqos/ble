@@ -1,6 +1,6 @@
 {
   "name": "@openiqos/ble",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "TypeScript Library to communicate with iQOS device.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -20,6 +20,7 @@
   },
   "private": false,
   "devDependencies": {
+    "@types/web-bluetooth": "^0.0.5",
     "rimraf": "^3.0.2",
     "tsc": "^1.20150623.0",
     "typescript": "^3.7.5"
